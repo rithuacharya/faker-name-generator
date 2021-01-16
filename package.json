@@ -1,0 +1,26 @@
+{
+  "name": "faker-name-generator",
+  "version": "1.0.0",
+  "description": "Get a random name",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rithuacharya/faker-name-generator.git"
+  },
+  "keywords": [
+    "random",
+    "name"
+  ],
+  "author": "Rithesh P Acharya <acharya.rithesh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rithuacharya/faker-name-generator/issues"
+  },
+  "homepage": "https://github.com/rithuacharya/faker-name-generator#readme",
+  "dependencies": {
+    "unique-random-array": "2.0.0"
+  }
+}
