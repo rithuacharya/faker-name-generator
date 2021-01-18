@@ -1,7 +1,12 @@
 var names = require("./names.json");
 var uniqueRandomArray = require("unique-random-array");
 
-module.exports = {
-  all: names,
-  random: uniqueRandomArray(names)
-}
+const obj = {
+  all: names
+};
+
+Object.defineProperty(obj, "random", {
+  get: uniqueRandomArray(names),
+});
+
+module.exports = obj;
